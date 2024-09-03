@@ -1,0 +1,33 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### Minimal -SHORT ### //
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+"position": "top",
+"width": 1050,
+"margin-top": 3,
+
+"modules-left": [
+	"clock",
+	"custom/separaotor#blank2",
+	"cpu",
+	"custom/separator#blank3",
+	"memory",
+	"custom/separator#blank3",
+	"temperature",   
+	],
+
+"modules-center": [
+	"hyprland/workspaces#kanji"
+	],
+
+"modules-right": [
+	"network", 
+	"bluetooth", 
+	"backlight", 
+	"pulseaudio", 
+	"battery", 
+	"custom/power"],
+}
